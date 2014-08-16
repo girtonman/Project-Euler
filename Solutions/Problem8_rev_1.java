@@ -1,6 +1,5 @@
 //skips 0 blocks
 //target answer  = 23514624000
-//result         = 23514624000
 //new loop count = 1974
 //old loop count = 14818
 public class Problem8_rev_1 {
