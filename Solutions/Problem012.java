@@ -1,6 +1,7 @@
-//brute force. intentionally inefficient
-//tried it without Math.sqrt and it never finished.
-//loop count = 130722452
+//rev 1
+//target answer = 76576500
+//new loop count = 54145952
+//old loop count = 130722452
 public class Problem012 {
    private static long loopCounter = 0;
    
@@ -12,19 +13,15 @@ public class Problem012 {
       
       while(numFactors <= 500) {
          triangleNumber++;
-         number = 0;
+         number += triangleNumber;
          numFactors = 0;
-         for(int i = 1; i <= triangleNumber; i++) {
-            number += i;
-            loopCounter++;
-         }
          for(int i = 1; i <= Math.sqrt(number); i++) {
             if(number % i == 0)
                numFactors += 2;
             loopCounter++;
          }
          if(Math.pow(Math.sqrt(number), 2) == number)
-            numFactors--;
+            numFactors++;
       }
       System.out.println("First triangle number with " + factorThresh + " factors is: " + number);
       System.out.println("This is the " + triangleNumber + "(st/nd/th) triangle number");
