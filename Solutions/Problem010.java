@@ -1,6 +1,6 @@
 //brute force
 //loop count = 71501893702
-public class Problem10 {
+public class Problem010 {
    private static long loopCounter = 0;
    private static int primeCount = 0;
    private static long sum = 0;

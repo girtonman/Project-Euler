@@ -1,4 +1,4 @@
-public class Problem6 {
+public class Problem006 {
    public static void main(String[] args) {
       int max = 100;
       int sumSquare = 0;

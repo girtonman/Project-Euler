@@ -1,4 +1,4 @@
-public class Problem7 {
+public class Problem007 {
    public static void main(String[] args) {
       int targetPrime = 10001;
       int currentPrime = 0;

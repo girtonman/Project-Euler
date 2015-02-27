@@ -2,7 +2,7 @@
 //target answer = 142913828922
 //new loop count = 5957731
 //old loop count = 71501893702
-public class Problem10_rev_1 {
+public class Problem010_rev_1 {
    private static long loopCounter = 0;
    private static int primeCount = 0;
    private static int numbersChecked = 0;

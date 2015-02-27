@@ -1,6 +1,6 @@
 //brute force
 //loop count = 199374425
-public class Problem9 {
+public class Problem009 {
    public static void main(String[] args) {
       long loopCounter = 0;
       int targetSum = 1000;

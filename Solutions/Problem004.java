@@ -1,4 +1,4 @@
-public class Problem4 {
+public class Problem004 {
    public static void main(String[] args) {
       int largestPalindrome = 0;
       for(int number1 = 999; number1 >= 100; number1--) {
