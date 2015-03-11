@@ -1,3 +1,4 @@
+//target answer = 70600674
 //total loops = 5032
 public class Problem011 {
    private static long loopCounter = 0;

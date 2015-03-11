@@ -1,3 +1,4 @@
+//target answer = 104743
 public class Problem007 {
    public static void main(String[] args) {
       int targetPrime = 10001;

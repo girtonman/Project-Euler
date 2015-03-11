@@ -1,3 +1,4 @@
+//target answer = 232792560
 public class Problem005 {
    public static void main(String[] args) {
       int number = 1;

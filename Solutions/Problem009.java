@@ -1,4 +1,5 @@
 //brute force
+//target answer = 31875000
 //loop count = 199374425
 public class Problem009 {
    public static void main(String[] args) {

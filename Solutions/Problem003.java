@@ -1,3 +1,4 @@
+//target answer = 6857
 public class Problem003 {
    public static void main(String[] args) {
       long base = 600851475143l;

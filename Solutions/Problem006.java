@@ -1,3 +1,4 @@
+//target answer = 25164150
 public class Problem006 {
    public static void main(String[] args) {
       int max = 100;

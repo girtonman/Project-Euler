@@ -1,3 +1,4 @@
+//target answer = 4613732
 public class Problem002 {
    public static void main(String[] args) {
       int sum = 0;

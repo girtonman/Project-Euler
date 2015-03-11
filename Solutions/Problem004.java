@@ -1,3 +1,4 @@
+//target answer = 906609
 public class Problem004 {
    public static void main(String[] args) {
       int largestPalindrome = 0;
